@@ -105,6 +105,8 @@ The function accepts the following options:
 
 -   **depth**: maximum number of input [ndarray][@stdlib/ndarray/ctor] dimensions to flatten.
 
+-   **dtype**: output ndarray [data type][@stdlib/ndarray/dtypes]. By default, the function returns an [ndarray][@stdlib/ndarray/ctor] having the same [data type][@stdlib/ndarray/dtypes] as a provided input [ndarray][@stdlib/ndarray/ctor].
+
 By default, the function flattens all dimensions of the input [ndarray][@stdlib/ndarray/ctor]. To flatten to a desired depth, specify the `depth` option.
 
 ```javascript
@@ -139,6 +141,28 @@ var y = flatten( x, {
 
 var arr = ndarray2array( y );
 // returns [ 1.0, 3.0, 5.0, 2.0, 4.0, 6.0 ]
+```
+
+By default, the output ndarray [data type][@stdlib/ndarray/dtypes] is inferred from the input [ndarray][@stdlib/ndarray/ctor]. To return an ndarray with a different [data type][@stdlib/ndarray/dtypes], specify the `dtype` option.
+
+```javascript
+var array = require( '@stdlib/ndarray-array' );
+var dtype = require( '@stdlib/ndarray-dtype' );
+var ndarray2array = require( '@stdlib/ndarray-to-array' );
+
+var x = array( [ [ [ 1.0, 2.0 ] ], [ [ 3.0, 4.0 ] ], [ [ 5.0, 6.0 ] ] ] );
+// returns <ndarray>
+
+var y = flatten( x, {
+    'dtype': 'float32'
+});
+// returns <ndarray>
+
+var dt = dtype( y );
+// returns 'float32'
+
+var arr = ndarray2array( y );
+// returns [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ]
 ```
 
 </section>
@@ -264,6 +288,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/ndarray-flatten/main/LICENSE
 
 [@stdlib/ndarray/ctor]: https://github.com/stdlib-js/ndarray-ctor
+
+[@stdlib/ndarray/dtypes]: https://github.com/stdlib-js/ndarray-dtypes
 
 [@stdlib/ndarray/orders]: https://github.com/stdlib-js/ndarray-orders
 
