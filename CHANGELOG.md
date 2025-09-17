@@ -35,6 +35,7 @@
 
 <details>
 
+-   [`9b660ce`](https://github.com/stdlib-js/stdlib/commit/9b660ceda07c2d62d1faccfe619da11579f631c6) - **test:** add `dtype` test _(by Athan Reines)_
 -   [`6d74243`](https://github.com/stdlib-js/stdlib/commit/6d742438beb8e7fe0de4ecfbc82083da16a0a83c) - **fix:** ensure correct type when providing a `dtype` option _(by Athan Reines)_
 -   [`0ed631d`](https://github.com/stdlib-js/stdlib/commit/0ed631d96dae3b796882c441f79505275afbc4c0) - **feat:** add `dtype` option support in `ndarray/flatten` [(#8091)](https://github.com/stdlib-js/stdlib/pull/8091) _(by Muhammad Haris, Athan Reines)_
 -   [`57a9400`](https://github.com/stdlib-js/stdlib/commit/57a9400329d0570d2b25ad6b87d4d9a74d7fc28b) - **fix:** avoid strict equality check _(by Athan Reines)_
