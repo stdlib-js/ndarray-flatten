@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-19)
+## Unreleased (2025-10-03)
 
 <section class="features">
 
@@ -36,6 +36,7 @@
 
 <details>
 
+-   [`157f4f4`](https://github.com/stdlib-js/stdlib/commit/157f4f4cd7cc3ce680dbfb538b3d8cbcfe5852dd) - **docs:** update comments _(by Athan Reines)_
 -   [`ecde0da`](https://github.com/stdlib-js/stdlib/commit/ecde0dab6fa80df5a13632b83ef780ba46861dd8) - **chore:** fix return annotation comments and spacing _(by Philipp Burckhardt)_
 -   [`6f6da0a`](https://github.com/stdlib-js/stdlib/commit/6f6da0afaa12ef31691ae659f6a005f140d81cd1) - **fix:** add missing argument to format strings _(by Philipp Burckhardt)_
 -   [`9b660ce`](https://github.com/stdlib-js/stdlib/commit/9b660ceda07c2d62d1faccfe619da11579f631c6) - **test:** add `dtype` test _(by Athan Reines)_
