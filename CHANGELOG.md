@@ -37,6 +37,8 @@
 
 <details>
 
+-   [`e091542`](https://github.com/stdlib-js/stdlib/commit/e091542b1f458f3dfb68bdae82314930575404c7) - **docs:** update example _(by Athan Reines)_
+-   [`7378ba6`](https://github.com/stdlib-js/stdlib/commit/7378ba6e3b77e50e90d4ea34cfecc263fdf8e65c) - **test:** use assertion utility _(by Athan Reines)_
 -   [`e33ce98`](https://github.com/stdlib-js/stdlib/commit/e33ce98738a5fb62a81d17dbcd8b1b2606c6f208) - **fix:** enforce mostly-safe casting _(by Athan Reines)_
 -   [`6c6b466`](https://github.com/stdlib-js/stdlib/commit/6c6b466ce5d2dff9110a56322009f3d7f1944f8b) - **refactor:** use base constructor _(by Athan Reines)_
 -   [`9889c81`](https://github.com/stdlib-js/stdlib/commit/9889c81a20c4f0d6115dcf2f65a1bf9f1072cf26) - **refactor:** remove unnecessary variable _(by Athan Reines)_
