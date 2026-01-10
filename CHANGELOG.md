@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-12)
+## Unreleased (2026-01-10)
 
 <section class="features">
 
@@ -37,6 +37,7 @@
 
 <details>
 
+-   [`3686f6f`](https://github.com/stdlib-js/stdlib/commit/3686f6f542397f4000ce69cd3f1e9f5052d68321) - **docs:** improve doctests for ndarray instances in `ndarray/flatten` [(#9665)](https://github.com/stdlib-js/stdlib/pull/9665) _(by Shreelaxmi Hegde)_
 -   [`e091542`](https://github.com/stdlib-js/stdlib/commit/e091542b1f458f3dfb68bdae82314930575404c7) - **docs:** update example _(by Athan Reines)_
 -   [`7378ba6`](https://github.com/stdlib-js/stdlib/commit/7378ba6e3b77e50e90d4ea34cfecc263fdf8e65c) - **test:** use assertion utility _(by Athan Reines)_
 -   [`e33ce98`](https://github.com/stdlib-js/stdlib/commit/e33ce98738a5fb62a81d17dbcd8b1b2606c6f208) - **fix:** enforce mostly-safe casting _(by Athan Reines)_
@@ -63,11 +64,12 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Muhammad Haris
 -   Philipp Burckhardt
+-   Shreelaxmi Hegde
 
 </section>
 
