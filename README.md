@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import flatten from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-flatten@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-flatten/tags). For example,
+
+```javascript
 import flatten from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-flatten@v0.1.0-esm/index.mjs';
 ```
 
@@ -160,7 +165,7 @@ var dt = String( dtype( y ) );
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
 import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@esm/index.mjs';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@esm/index.mjs';
-import flatten from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-flatten@v0.1.0-esm/index.mjs';
+import flatten from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-flatten@esm/index.mjs';
 
 var xbuf = discreteUniform( 12, -100, 100, {
     'dtype': 'generic'
