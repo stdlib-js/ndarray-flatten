@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import flatten from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-flatten@deno/mod.js';
+import flatten from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-flatten@v0.1.1-deno/mod.js';
 ```
 
 #### flatten( x\[, options] )
@@ -155,7 +155,7 @@ var dt = String( dtype( y ) );
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
 import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@deno/mod.js';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@deno/mod.js';
-import flatten from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-flatten@deno/mod.js';
+import flatten from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-flatten@v0.1.1-deno/mod.js';
 
 var xbuf = discreteUniform( 12, -100, 100, {
     'dtype': 'generic'
